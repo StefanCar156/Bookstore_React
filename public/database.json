@@ -1,0 +1,148 @@
+{
+    "booksList": [
+        {
+            "id": "1",
+            "title": "Living in the light",
+            "author": "David Sargent",
+            "cover": "https://images.pexels.com/photos/3378993/pexels-photo-3378993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "category": "self-improvement",
+            "price": "9.99"
+        },
+        {
+            "id": "2",
+            "title": "Give and take",
+            "author": "Adam Grant",
+            "cover": "https://images.pexels.com/photos/5941398/pexels-photo-5941398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "category": "spirituality",
+            "price": "8.99"
+        },
+        {
+            "id": "3",
+            "title": "Mindset: the new psychology of success",
+            "author": "Carol Dweck",
+            "cover": "https://images.pexels.com/photos/4792503/pexels-photo-4792503.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "category": "self-improvement",
+            "price": "9.99"
+        },
+        {
+            "id": "4",
+            "title": "Napoleon: a biography",
+            "author": "Frank McLynn",
+            "cover": "https://images.pexels.com/photos/839428/pexels-photo-839428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "category": "biography",
+            "price": "24.99"
+        },
+        {
+            "id": "5",
+            "title": "Rich dad, poor dad",
+            "author": "Robert Kiyosaki",
+            "cover": "https://images.pexels.com/photos/5980747/pexels-photo-5980747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "category": "finance",
+            "price": "13.99"
+        },
+        {
+            "id": "6",
+            "title": "Think and grow rich",
+            "author": "Napoleon Hill",
+            "cover": "https://images.pexels.com/photos/3943723/pexels-photo-3943723.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "category": "finance",
+            "price": "14.99"
+        },
+        {
+            "id": "7",
+            "title": "The power of your subconscious mind",
+            "author": "Joseph Murphy",
+            "cover": "https://images.pexels.com/photos/4394240/pexels-photo-4394240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "category": "spirituality",
+            "price": "10.99"
+        },
+        {
+            "id": "8",
+            "title": "The Godfather",
+            "author": "Mario Puzo",
+            "cover": "https://images.pexels.com/photos/5668484/pexels-photo-5668484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "category": "crime",
+            "price": "12.99"
+        },
+        {
+            "id": "9",
+            "title": "the pragmatic programmer",
+            "author": "Andrew Hunt",
+            "cover": "https://images.pexels.com/photos/3861976/pexels-photo-3861976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "category": "technology",
+            "price": "29.99"
+        },
+        {
+            "id": "10",
+            "title": "The compound effect",
+            "author": "Darren Hardy",
+            "cover": "https://images.pexels.com/photos/2121804/pexels-photo-2121804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "category": "self-improvement",
+            "price": "15.99"
+        },
+        {
+            "id": "11",
+            "title": "The sicilian",
+            "author": "Mario Puzo",
+            "cover": "https://images.pexels.com/photos/5273373/pexels-photo-5273373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "category": "crime",
+            "price": "13.99"
+        },
+        {
+            "id": "12",
+            "title": "Spoken english: flourish your language",
+            "author": "Robert Carmen",
+            "cover": "https://images.pexels.com/photos/5649888/pexels-photo-5649888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "category": "language",
+            "price": "19.99"
+        },
+        {
+            "id": "13",
+            "title": "Presentation secrets of steve jobs",
+            "author": "Carmine Gallo",
+            "cover": "https://images.pexels.com/photos/3767172/pexels-photo-3767172.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "category": "biography",
+            "price": "18.99"
+        },
+        {
+            "id": "14",
+            "title": "The richest man in babylon",
+            "author": "George S. Clason",
+            "cover": "https://images.pexels.com/photos/3645123/pexels-photo-3645123.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "category": "finance",
+            "price": "10.99"
+        },
+        {
+            "id": "15",
+            "title": "How successful people think",
+            "author": "John Maxwell",
+            "cover": "https://images.pexels.com/photos/3178767/pexels-photo-3178767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "category": "business",
+            "price": "8.99"
+        },
+        {
+            "id": "16",
+            "title": "The clean coder",
+            "author": "Robert Martin",
+            "cover": "https://images.pexels.com/photos/5474028/pexels-photo-5474028.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "category": "technology",
+            "price": "27.99"
+        },
+        {
+            "id": "17",
+            "title": "Introduction to law",
+            "author": "Jaap Hage",
+            "cover": "https://images.pexels.com/photos/5668882/pexels-photo-5668882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "category": "law",
+            "price": "17.99"
+        },
+        {
+            "id": "18",
+            "title": "The real book of real estate",
+            "author": "Robert Kiyosaki",
+            "cover": "https://images.pexels.com/photos/3790058/pexels-photo-3790058.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "category": "finance",
+            "price": "19.99"
+        }
+    ]
+}
