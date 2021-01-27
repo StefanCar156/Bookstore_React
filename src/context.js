@@ -13,9 +13,14 @@ const AppProvider = ({children}) => {
     const [bookDetails, setBookDetails] = useState({})
     const [isDetailsModalOpen, setIsDetailsModalOpen] = useState(false)
     const [modalLocation, setModalLocation] = useState({})
+    const [searchValue, setSearchValue] = useState("")
 
     const handleToggleCart = () => {
         setIsCartOpen(!isCartOpen)
+    }
+
+    const handleSearchValue = (e) => {
+        setSearchValue(e.target.value)
     }
 
     const handleChangeCategory = (e) => {
@@ -126,7 +131,7 @@ const AppProvider = ({children}) => {
         setCartItems([])
     }
 
-    return <AppContext.Provider value={{loading, setLoading, books, setBooks, handleChangeCategory, handleAddItemToCart, cartItems, handleToggleCart, isCartOpen, handleRemoveCartItem, amount, total, increaseAmount, decreaseAmount, handleConfirmOrder, categoryFilters, handleViewDetails, isDetailsModalOpen, setIsDetailsModalOpen, bookDetails, modalLocation, handleOpenModal}}>{children}</AppContext.Provider>
+    return <AppContext.Provider value={{loading, setLoading, books, setBooks, handleChangeCategory, handleAddItemToCart, cartItems, handleToggleCart, isCartOpen, handleRemoveCartItem, amount, total, increaseAmount, decreaseAmount, handleConfirmOrder, categoryFilters, handleViewDetails, isDetailsModalOpen, setIsDetailsModalOpen, bookDetails, modalLocation, handleOpenModal, searchValue, handleSearchValue}}>{children}</AppContext.Provider>
 }
 
 export const useGlobalContext = () => {
