@@ -10,6 +10,9 @@ const AppProvider = ({children}) => {
     const [total, setTotal] = useState(0)
     const [amount, setAmount] = useState(0)
     const [categoryFilters, setCategoryFilters] = useState(null)
+    const [bookDetails, setBookDetails] = useState({})
+    const [isDetailsModalOpen, setIsDetailsModalOpen] = useState(false)
+    const [modalLocation, setModalLocation] = useState({})
 
     const handleToggleCart = () => {
         setIsCartOpen(!isCartOpen)
@@ -24,6 +27,22 @@ const AppProvider = ({children}) => {
         } else {
             setCategoryFilters(e.target.textContent)
             e.target.classList.add("category-item-active")
+        }
+    }
+
+    const handleViewDetails = (id) => {
+        let targetBook = books.booksList[id - 1]
+        setBookDetails(targetBook)
+    }
+
+    const handleOpenModal = (coordinates) => {
+        setModalLocation(coordinates)
+        setIsDetailsModalOpen(true)
+    }
+
+    window.onscroll = () => {
+        if (isDetailsModalOpen) {
+            setIsDetailsModalOpen(false)
         }
     }
 
@@ -107,7 +126,7 @@ const AppProvider = ({children}) => {
         setCartItems([])
     }
 
-    return <AppContext.Provider value={{loading, setLoading, books, setBooks, handleChangeCategory, handleAddItemToCart, cartItems, handleToggleCart, isCartOpen, handleRemoveCartItem, amount, total, increaseAmount, decreaseAmount, handleConfirmOrder, categoryFilters}}>{children}</AppContext.Provider>
+    return <AppContext.Provider value={{loading, setLoading, books, setBooks, handleChangeCategory, handleAddItemToCart, cartItems, handleToggleCart, isCartOpen, handleRemoveCartItem, amount, total, increaseAmount, decreaseAmount, handleConfirmOrder, categoryFilters, handleViewDetails, isDetailsModalOpen, setIsDetailsModalOpen, bookDetails, modalLocation, handleOpenModal}}>{children}</AppContext.Provider>
 }
 
 export const useGlobalContext = () => {
