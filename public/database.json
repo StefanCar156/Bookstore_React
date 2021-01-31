@@ -3,10 +3,11 @@
         {
             "id": "1",
             "title": "Living in the light",
-            "author": "David Sargent",
+            "author": "Shakti Gawain",
             "cover": "https://images.pexels.com/photos/3378993/pexels-photo-3378993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "category": "self-improvement",
-            "price": "9.99"
+            "price": "9.99",
+            "description": "Are you searching for deeper meaning and purpose in your life? Do you sense that you have an inner wisdom that can be a guiding force for you, yet wonder how to connect with that intuitive self? How do you know which inner voices to listen to? For over thirty years, Shakti Gawain has helped readers address these questions. Living in the Light has given literally millions of people clear and gentle guidance to create a new way of life — one in which we listen to our intuition and rely on it as a guiding force. The key lies in bringing the light of our awareness to every aspect of ourselves, including our disowned energies — our shadow side. With great insight and clarity, Shakti shows us the transformative power of bringing awareness to every part of ourselves. Simple yet powerful exercises on subjects including creativity, relationships, parenting, health, money, and transforming the world help us put these teachings to practical use in our daily lives. Living in the Light is a comprehensive map to growth, fulfillment, and consciousness. As we grapple with personal, national, and global challenges on many fronts, this classic work is timelier than ever."
         },
         {
             "id": "2",
@@ -14,7 +15,8 @@
             "author": "Adam Grant",
             "cover": "https://images.pexels.com/photos/5941398/pexels-photo-5941398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "category": "spirituality",
-            "price": "8.99"
+            "price": "8.99",
+            "description": "For generations, we have focused on the individual drivers of success: passion, hard work, talent, and luck. But in today’s dramatically reconfigured world, success is increasingly dependent on how we interact with others. In Give and Take, Adam Grant, an award-winning researcher and Wharton’s highest-rated professor, examines the surprising forces that shape why some people rise to the top of the success ladder while others sink to the bottom. Praised by social scientists, business theorists, and corporate leaders, Give and Take opens up an approach to work, interactions, and productivity that is nothing short of revolutionary."        
         },
         {
             "id": "3",
@@ -22,7 +24,8 @@
             "author": "Carol Dweck",
             "cover": "https://images.pexels.com/photos/4792503/pexels-photo-4792503.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "category": "self-improvement",
-            "price": "9.99"
+            "price": "9.99",
+            "description": "After decades of research, world-renowned Stanford University psychologist Carol S. Dweck, Ph.D., discovered a simple but groundbreaking idea: the power of mindset. In this brilliant book, she shows how success in school, work, sports, the arts, and almost every area of human endeavor can be dramatically influenced by how we think about our talents and abilities. People with a fixed mindset—those who believe that abilities are fixed—are less likely to flourish than those with a growth mindset—those who believe that abilities can be developed. Mindset reveals how great parents, teachers, managers, and athletes can put this idea to use to foster outstanding accomplishment. In this edition, Dweck offers new insights into her now famous and broadly embraced concept. She introduces a phenomenon she calls false growth mindset and guides people toward adopting a deeper, truer growth mindset. She also expands the mindset concept beyond the individual, applying it to the cultures of groups and organizations. With the right mindset, you can motivate those you lead, teach, and love—to transform their lives and your own."        
         },
         {
             "id": "4",
@@ -30,7 +33,8 @@
             "author": "Frank McLynn",
             "cover": "https://images.pexels.com/photos/839428/pexels-photo-839428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "category": "biography",
-            "price": "24.99"
+            "price": "24.99",
+            "description": "Brilliantly recreating the life of the notorious emperor, a riveting biography documents Napoleon's illustrious career, from his Corsican roots through the French Revolution and his military victories, to his defeat and imprisonment, revealing a great, yet deeply flawed, man. 30,000 first printing."
         },
         {
             "id": "5",
@@ -38,7 +42,8 @@
             "author": "Robert Kiyosaki",
             "cover": "https://images.pexels.com/photos/5980747/pexels-photo-5980747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "category": "finance",
-            "price": "13.99"
+            "price": "13.99",
+            "description": "April 2017 marks 20 years since Robert Kiyosaki’s Rich Dad Poor Dad first made waves in the Personal Finance arena. It has since become the #1 Personal Finance book of all time... translated into dozens of languages and sold around the world. Rich Dad Poor Dad is Robert's story of growing up with two dads — his real father and the father of his best friend, his rich dad — and the ways in which both men shaped his thoughts about money and investing. The book explodes the myth that you need to earn a high income to be rich and explains the difference between working for money and having your money work for you."
         },
         {
             "id": "6",
@@ -46,7 +51,8 @@
             "author": "Napoleon Hill",
             "cover": "https://images.pexels.com/photos/3943723/pexels-photo-3943723.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "category": "finance",
-            "price": "14.99"
+            "price": "14.99",
+            "description": "Think and Grow Rich has been called the 'Granddaddy of All Motivational Literature.' It was the first book to boldly ask, 'What makes a winner?' The man who asked and listened for the answer, Napoleon Hill, is now counted in the top ranks of the world's winners himself. The most famous of all teachers of success spent 'a fortune and the better part of a lifetime of effort' to produce the 'Law of Success' philosophy that forms the basis of his books and that is so powerfully summarized in this one. In the original Think and Grow Rich, published in 1937, Hill draws on stories of Andrew Carnegie, Thomas Edison, Henry Ford, and other millionaires of his generation to illustrate his principles. In the updated version, Arthur R. Pell, Ph.D., a nationally known author, lecturer, and consultant in human resources management and an expert in applying Hill's thought, deftly interweaves anecdotes of how contemporary millionaires and billionaires, such as Bill Gates, Mary Kay Ash, Dave Thomas, and Sir John Templeton, achieved their wealth. Outmoded or arcane terminology and examples are faithfully refreshed to preclude any stumbling blocks to a new generation of readers."
         },
         {
             "id": "7",
@@ -54,7 +60,8 @@
             "author": "Joseph Murphy",
             "cover": "https://images.pexels.com/photos/4394240/pexels-photo-4394240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "category": "spirituality",
-            "price": "10.99"
+            "price": "10.99",
+            "description": "In The Power of Your Subconscious Mind, Dr. Joseph Murphy gives you the tools you will need to unlock the awesome powers of your subconscious mind. You can improve your relationships, your finances, your physical well-being. Once you learn how to use this unbelievably powerful force there is nothing you will not be able to accomplish. Join the millions of people who have already unlocked the power of their subconscious minds. I urge you to study this book and apply the techniques outlined therein; and as you do, I feel absolutely convinced that you will lay hold of a miracle-working power that will lift you up from confusion, misery, melancholy, and failure, and guide you to your true place, solve your difficulties, sever you from emotional and physical bondage, and place you on the royal road to freedom, happiness, and peace of mind.- Dr. Joseph Murphy"
         },
         {
             "id": "8",
@@ -62,7 +69,8 @@
             "author": "Mario Puzo",
             "cover": "https://images.pexels.com/photos/5668484/pexels-photo-5668484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "category": "crime",
-            "price": "12.99"
+            "price": "12.99",
+            "description": "With its brilliant and brutal portrayal of the Corleone family, The Godfather burned its way into our national consciousness. This unforgettable saga of crime and corruption, passion and loyalty continues to stand the test of time, as the definitive novel of the Mafia underworld. A #1 New York Times bestseller in 1969, Mario Puzo’s epic was turned into the incomparable film of the same name, directed by Francis Ford Coppola, which won the Academy Award for Best Picture. It is the original classic that has been often imitated, but never matched. A tale of family and society, law and order, obedience and rebellion, it reveals the dark passions of human nature played out against a backdrop of the American dream."
         },
         {
             "id": "9",
@@ -70,7 +78,8 @@
             "author": "Andrew Hunt",
             "cover": "https://images.pexels.com/photos/3861976/pexels-photo-3861976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "category": "technology",
-            "price": "29.99"
+            "price": "29.99",
+            "description": "The Pragmatic Programmer is one of those rare tech audiobooks you’ll listen, re-listen, and listen to again over the years. Whether you’re new to the field or an experienced practitioner, you’ll come away with fresh insights each and every time. Dave Thomas and Andy Hunt wrote the first edition of this influential book in 1999 to help their clients create better software and rediscover the joy of coding. These lessons have helped a generation of programmers examine the very essence of software development, independent of any particular language, framework, or methodology, and the Pragmatic philosophy has spawned hundreds of books, screencasts, and audio books, as well as thousands of careers and success stories. Now, 20 years later, this new edition re-examines what it means to be a modern programmer. Topics range from personal responsibility and career development to architectural techniques for keeping your code flexible and easy to adapt and reuse. All the old favorite topics are there, updated for this new world. And there's a bunch of new content, reflecting what we've learned in the intervening years. Whether you’re a new coder, an experienced programmer, or a manager responsible for software projects, use these lessons daily, and you’ll quickly see improvements in personal productivity, accuracy, and job satisfaction. You’ll learn skills and develop habits and attitudes that form the foundation for long-term success in your career. You’ll become a pragmatic programmer. "
         },
         {
             "id": "10",
@@ -78,7 +87,8 @@
             "author": "Darren Hardy",
             "cover": "https://images.pexels.com/photos/2121804/pexels-photo-2121804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "category": "self-improvement",
-            "price": "15.99"
+            "price": "15.99",
+            "description": "The Compound Effect: Jumpstart Your Income, Your Life, Your Success is a self-help book by the publisher of SUCCESS magazine, Darren Hardy. It describes how small attitude and behavior adjustments, when applied with consistency, can result in significant life changes...."
         },
         {
             "id": "11",
@@ -86,7 +96,8 @@
             "author": "Mario Puzo",
             "cover": "https://images.pexels.com/photos/5273373/pexels-photo-5273373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "category": "crime",
-            "price": "13.99"
+            "price": "13.99",
+            "description": "Michael Corleone is returning to the U.S. after the two-year exile to Sicily in which reader left him in The Godfather. But he is ordered to bring with him the young Sicilian bandit, Salvatore Guiliano, who is the unofficial ruler of northwestern Sicily. In his fight 'to make Sicilians free people' the young folk hero, based on the real-life Giuliano of the 1940's, has made both the police and the Mafia his enemies. So when Don Croce Malo, chief of the Sicilian Mafia, and the policemen who has been tracking Guiliano each offer to help Corleone find the elusive Robin Hood, betrayal seems inevitable. Mario Puzo has created a sequel to The Godfather that is every bit as compelling and dramatic. But The Sicilian is a distinct literary achievement in its historical inspiration and its vivid portrait of Sicilian peasant life."
         },
         {
             "id": "12",
@@ -94,7 +105,8 @@
             "author": "Robert Carmen",
             "cover": "https://images.pexels.com/photos/5649888/pexels-photo-5649888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "category": "language",
-            "price": "19.99"
+            "price": "19.99",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate nihil fuga quod officiis similique quibusdam magnam sint a voluptatem quaerat deserunt culpa minus laboriosam consequuntur sequi, possimus reiciendis rem veritatis id esse blanditiis? Adipisci, recusandae voluptatum eos pariatur architecto dolores, omnis dolorem nam exercitationem animi doloribus facilis dolor sit saepe necessitatibus modi rem? Quaerat quibusdam voluptatibus vel maiores modi eum fugit adipisci provident dolore! Nostrum hic repudiandae, officiis placeat eveniet amet voluptas maxime magni magnam accusamus porro id nemo quaerat atque. Vel, rerum!"
         },
         {
             "id": "13",
@@ -102,7 +114,8 @@
             "author": "Carmine Gallo",
             "cover": "https://images.pexels.com/photos/3767172/pexels-photo-3767172.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "category": "biography",
-            "price": "18.99"
+            "price": "18.99",
+            "description": "Whether he was introducing the latest iPad or delivering a keynote presentation, Steve Jobs electrified audiences with his incomparable style and showmanship. He didn’t just convey information in his presentations; he told a story, painted a picture, and shared a vision. He gave his audience a transformative experience that was unique, inspiring, and unforgettable. Now you can do it too, by learning the specific techniques that made Jobs the most captivating communicator on the world stage. Using Jobs’s legendary presentations as a blueprint, communication-skills coach Carmine Gallo has mapped out a ready-to-use framework of presentation secrets to help you plan, deliver, and refine the best presentation of your life."
         },
         {
             "id": "14",
@@ -110,7 +123,8 @@
             "author": "George S. Clason",
             "cover": "https://images.pexels.com/photos/3645123/pexels-photo-3645123.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "category": "finance",
-            "price": "10.99"
+            "price": "10.99",
+            "description": "This inspiring book, began in 1926 as a series of informational pamphlets distributed by banks and insurance companies. By 1927, several of these pamphlets had been compiled into a book and this collection has been in print ever since. It has helped millions of people, and has been hailed as the greatest of all inspirational works on the subject of thrift, financial planning, and personal wealth. A modern day classic, The Richest Man in Babylon dispenses financial advice through a collection of parables set in ancient Babylon. These famous 'Babylonian parables' offer an understanding of - and solution to - a lifetime's worth of personal financial problems, and holds the secrets to acquiring money, keeping money, and earning more money."
         },
         {
             "id": "15",
@@ -118,7 +132,8 @@
             "author": "John Maxwell",
             "cover": "https://images.pexels.com/photos/3178767/pexels-photo-3178767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "category": "business",
-            "price": "8.99"
+            "price": "8.99",
+            "description": "Full of interactive questions and space for readers to provide answers, as well as new material for readers to assess their current type of thinking, this workbook guides readers in applying the lessons they learned from How Successful People Think or the book which it was derived from, Thinking For A Change. Each of the eleven chapters will focus on one type of thinking, and contain a case study, critical thinking questions, a journal section, and an action plan of steps to help the reader create a personalized plan."
         },
         {
             "id": "16",
@@ -126,7 +141,8 @@
             "author": "Robert Martin",
             "cover": "https://images.pexels.com/photos/5474028/pexels-photo-5474028.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "category": "technology",
-            "price": "27.99"
+            "price": "27.99",
+            "description": "In The Clean Coder: A Code of Conduct for Professional Programmers, legendary software expert Robert C. Martin introduces the disciplines, techniques, tools, and practices of true software craftsmanship. This book is packed with practical advice–about everything from estimating and coding to refactoring and testing. It covers much more than technique: It is about attitude. Martin shows how to approach software development with honor, self-respect, and pride; work well and work clean; communicate and estimate faithfully; face difficult decisions with clarity and honesty; and understand that deep knowledge comes with a responsibility to act."
         },
         {
             "id": "17",
@@ -134,7 +150,8 @@
             "author": "Jaap Hage",
             "cover": "https://images.pexels.com/photos/5668882/pexels-photo-5668882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "category": "law",
-            "price": "17.99"
+            "price": "17.99",
+            "description": "This book is exceptional in the sense that it provides an introduction to law in general rather than the law of one specific jurisdiction, and it presents a unique way of looking at legal education. It is crucial for lawyers to be aware of the different ways in which societal problems can be solved and to be able to discuss the advantages and disadvantages of different legal solutions. In this respect, being a lawyer involves being able to reason like a lawyer, even more than having detailed knowledge of particular sets of rules. Introduction to Law reflects this view by focusing on the functions of rules and on ways of arguing the relative qualities of alternative legal solutions. Where ‘positive’ law is discussed, the emphasis is on the legal questions that must be addressed by a field of law and on the different solutions which have been adopted by, for instance, the common law and civil law tradition. The law of specific jurisdictions is discussed to illustrate possible answers to questions such as when the existence of a valid contract is assumed."
         },
         {
             "id": "18",
@@ -142,7 +159,8 @@
             "author": "Robert Kiyosaki",
             "cover": "https://images.pexels.com/photos/3790058/pexels-photo-3790058.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "category": "finance",
-            "price": "19.99"
+            "price": "19.99",
+            "description": "In a world where too many financial advisors do not follow their own advice, here is a book written by experts who practice what they teach and who will teach you to thrive, not merely survive, during turbulent economic times. This is the real deal...The Real Book of Real Estate. The only thing better than one real estate expert teaching you how to invest and win is 20 real estate experts with that same mission. For the first time ever, Robert Kiyosaki, bestselling author of Rich Dad Poor Dad, has assembled in one book an unrivaled cast of real estate wizards and trusted advisors with one purpose in mind: to share their knowledge and teach you to win in real estate. This is the ultimate real estate book you will come back to again and again. Listen to it cover to cover, or use it as a guide to help when you need it most. The Real Book of Real Estate will be your number one source as you determine the real estate niche that is perfect for you and as you navigate the ups and downs of the real estate market and become the expert you know you can be."
         }
     ]
 }

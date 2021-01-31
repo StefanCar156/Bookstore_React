@@ -10,10 +10,8 @@ const AppProvider = ({children}) => {
     const [total, setTotal] = useState(0)
     const [amount, setAmount] = useState(0)
     const [categoryFilters, setCategoryFilters] = useState(null)
-    const [bookDetails, setBookDetails] = useState({})
-    const [isDetailsModalOpen, setIsDetailsModalOpen] = useState(false)
-    const [modalLocation, setModalLocation] = useState({})
     const [searchValue, setSearchValue] = useState("")
+    const [bookId, setBookId] = useState(null)
 
     const handleToggleCart = () => {
         setIsCartOpen(!isCartOpen)
@@ -24,37 +22,21 @@ const AppProvider = ({children}) => {
     }
 
     const handleChangeCategory = (e) => {
-        e.target.parentElement.childNodes.forEach((child) => {
-            child.classList.remove("category-item-active")
-        })
         if (e.target.textContent === "All Categories") {
             setCategoryFilters(null)
         } else {
             setCategoryFilters(e.target.textContent)
-            e.target.classList.add("category-item-active")
         }
     }
 
-    const handleViewDetails = (id) => {
-        let targetBook = books.booksList[id - 1]
-        setBookDetails(targetBook)
-    }
-
-    const handleOpenModal = (coordinates) => {
-        setModalLocation(coordinates)
-        setIsDetailsModalOpen(true)
-    }
-
-    window.onscroll = () => {
-        if (isDetailsModalOpen) {
-            setIsDetailsModalOpen(false)
-        }
-    }
-
-    const handleAddItemToCart = (e) => {
-        const newCartItemTitle = e.target.parentElement.children[0].textContent
-        const newCartItemPrice = e.target.parentElement.children[1].textContent
-
+    const handleAddItemToCart = (id) => {
+        let newCartItemTitle, newCartItemPrice
+        books.booksList.map((book) => {
+            if (book.id === id) {
+                newCartItemTitle = book.title
+                newCartItemPrice = book.price
+            }
+        })
         // Check if item is already in the cart
         let isSameItem = false
         cartItems.map((item) => {
@@ -65,7 +47,7 @@ const AppProvider = ({children}) => {
         })
         if (isSameItem) {
             return
-        } 
+        }
         const newCartItem = {
             cartItemTitle: newCartItemTitle,
             cartItemPrice: newCartItemPrice,
@@ -131,7 +113,7 @@ const AppProvider = ({children}) => {
         setCartItems([])
     }
 
-    return <AppContext.Provider value={{loading, setLoading, books, setBooks, handleChangeCategory, handleAddItemToCart, cartItems, handleToggleCart, isCartOpen, handleRemoveCartItem, amount, total, increaseAmount, decreaseAmount, handleConfirmOrder, categoryFilters, handleViewDetails, isDetailsModalOpen, setIsDetailsModalOpen, bookDetails, modalLocation, handleOpenModal, searchValue, handleSearchValue}}>{children}</AppContext.Provider>
+    return <AppContext.Provider value={{loading, setLoading, books, setBooks, categoryFilters, handleChangeCategory, handleAddItemToCart, cartItems, handleToggleCart, isCartOpen, handleRemoveCartItem, amount, total, increaseAmount, decreaseAmount, handleConfirmOrder, searchValue, setSearchValue, handleSearchValue, bookId, setBookId}}>{children}</AppContext.Provider>
 }
 
 export const useGlobalContext = () => {
